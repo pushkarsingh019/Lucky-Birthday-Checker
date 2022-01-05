@@ -13,16 +13,20 @@ var dateArray = [];
 
 function convertArray(date){
     var dateString = date;
-    for (var i=0; i<date.length; i++){
-        if(dateString.charAt(i) === NaN){
-
-        }
-        else{
-            dateArray.push(+dateString.charAt(i))
-        }
+    for (var i=0; i<date.length; i++){ 
+        
+        dateArray.push(+dateString.charAt(i));
+       
     }
+    
+    console.log(dateArray);
+    dateArray = dateArray.toString;
+    console.log(typeof dateArray)
     console.log(dateArray);
 }
+
+
+
 
 function eventHandler(){
     convertArray(birthday.value);
