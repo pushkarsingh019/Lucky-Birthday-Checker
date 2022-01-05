@@ -18,11 +18,6 @@ function convertArray(date){
         dateArray.push(+dateString.charAt(i));
        
     }
-    
-    console.log(dateArray);
-    dateArray = dateArray.toString;
-    console.log(typeof dateArray)
-    console.log(dateArray);
 }
 
 
