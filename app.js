@@ -18,7 +18,7 @@ function convertString(birthdayValue){
 
 // To check if the birthday is lucky or not
 function luckyBirthdayChecker(sum, luckyNumber){
-    if (sum % luckyNumber == 0){
+    if (sum % luckyNumber === 0){
         return 1
     }
     else if (sum % luckyNumber != 0){
@@ -57,4 +57,6 @@ function eventHandler(){
 
 // Adding Event Listeners
 buttton.addEventListener("click", eventHandler)
+
+
 
