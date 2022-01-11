@@ -32,13 +32,13 @@ function luckyBirthdayChecker(sum, luckyNumber){
 // Function to Disply Output
 function displayOutput(flag){
     if (flag === 1){
-        alert("You are lucky")
+        output.innerHTML = "you are lucky"
     }
     else if (flag === 0){
-        alert("you are not lucky")
+        output.innerHTML = "You are not lucky, So Sad"
     }
     else {
-        alert("something went wrong")
+        output.innerHTML = "Something went wrong"
     }
 }
 
