@@ -31,7 +31,7 @@ h1 {
     color: var(--secondary-color);
 }
 button {
-    background-color: var(--cta-color); /* Green */
+    background-color: var(--cta-color); 
     border: none;
     color: white;
     padding: 15px 32px;
