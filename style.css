@@ -43,4 +43,9 @@ button {
 
 textarea {
     outline: none;
+    width: 50%;
+}
+.portfolio-links {
+    list-style: none;
+    display: inline-block;
 }
