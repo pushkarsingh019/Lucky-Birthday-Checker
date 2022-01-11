@@ -10,21 +10,22 @@
 <body>
 
     <h1>Is your Birthday Lucky?</h1>
-    <input type="date" id="birthday" name="birthday" placeholder="Enter your birthday?"  />
+    <input type="date" id="birthday" name="birthday" placeholder="Enter your birthday?"  required />
     <br>
-    <input type="number" placeholder="Enter Lucky Number" id="lucky">
+    <input type="number" placeholder="Enter Lucky Number" id="lucky" required>
     <br>
     <button id="btn">Am I lucky?</button>
     <br>
     <textarea required readonly id="output" cols="30" rows="1" placeholder="Output Will appear here"></textarea>
     <!-- Footer -->
-    <footer>
-        <h3>Pushkar Singh</h3>
-        <ul class="portfolio-links">
-            <li><a href="https://stoicpushkar.com">👨🏼‍💻Portfolio</a></li>
-            <li><a href="https://github.com/pushkarsingh019/">📝GitHub</a></li>
-            <li><a href="mailto:pushkars423@gmail.com">✉️Mail</a></li>
+    <footer class="footer">
+        <ul >
+            <li class="portfolio-links"><a class="footer-link" target="_blank" href="https://stoicpushkar.com">👨🏼‍💻Portfolio</a></li>
+            <li class="portfolio-links"><a class="footer-link" target="_blank" href="https://github.com/pushkarsingh019/">📝GitHub</a></li>
+            <li class="portfolio-links"><a class="footer-link" target="_blank" href="mailto:pushkars423@gmail.com">✉️Mail</a></li>
+            <li class="portfolio-links"><a class="footer-link" target="_blank" href="https://twitter,com/stoicpushkar">🕊Twitter</a></li>
         </ul>
+        <p class="footer-text">Made with 🖤 by Pushkar Singh</p>
     </footer>
     <script src="/app.js"></script>
 </body>
